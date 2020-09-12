@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+   background: url(./photo-1534796636912-3b95b3ab5986.jpg);
+   background-position: fixed;
+    font-family: 'Patrick Hand', cursive;
+    font-size:20px;
+
+}
+
+/*library header*/
+
+.wrapper {
+    width: 90%;
+
+    margin: 0 auto;
+  
+    padding: 0;
+   
+}
+
+
+/*books body*/
+
+.book {
+   
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+
+    color: rgb(0, 0, 0);
+    margin: 10px 40px;
+    border: 1px solid black;
+    border-left: 10px solid rgba(9, 85, 104, 0.63);
+    background-color:rgba(0, 62, 77, 0.233);
+
+}
+
+
+
+
+
+
+#search {
+    padding: 50px;
+    font-size: 25px;
+    
+    display: block;
+    
+    margin-bottom: 20px;
+    
+    padding-left: 100px;
+    
+    background-color:rgb(0, 61, 77);
+    color: white;
+
+
+
+}
+
+
+#add-book {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    margin: 20px auto;
+    
+    
+  
+  
+}
+label {
+    margin: 3px;
+}
+
+.booklist {
+    width: 100%;
+    margin: 0 auto;
+  
+   
+
+
+}
+.book-lib{
+   
+   
+    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+    width:80%;
+    margin: 0 auto;
+    
+    
+   
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+ 
+    
+    
+
+}
+
+
+button,
+.rem {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(0, 61, 77);
+    color: white;
+  border:none;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.wrapper>h1 ,.wrapper >h2 , .wrapper >h3{
+    color: rgb(228, 219, 213);
+    margin-left: 300px;
+     font-family: 'Kalam', cursive;
+}
+
+input {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 6px;
+
+}
+
+
+
+.book:hover {
+    border-left:10px solid rgb(0, 61, 77);
+    padding-left: 10px;
+}
+.footer{
+    margin-top:100px;
+    
+}
+
+.tabbed-content ul {
+    background-color:rgb(0, 61, 77);
+    color: white;
+    padding: 10px;
+  
+
+
+}
+
+.tabbed-content li {
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 40px;
+    padding: 10px;
+   
+}
+
+.tabbed-content .pannel {
+    font-size: 15px;
+    display: none;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+      color: white;
+    width: 200px;
+    height: 200px;
+}
+
+#contact {
+
+    margin-top: -15px;
+    margin-left: 200px;
+    
+
+}
+
+#about {
+    margin-top: -15px;
+    margin-right: 200px;
+
+}
+
+.tabbed-content .pannel.active {
+    display: block;
+    background-color:rgba(117, 111, 111, 0.651);
+   
+
+
+
+}
+
+.tabs li:last-child{
+    margin-left:10%;
+}
